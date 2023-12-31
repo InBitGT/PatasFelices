@@ -18,12 +18,12 @@ const Clients=({ title}) => {
   return (
     <ContainerPath
      contentStyle={AddContentStyle}
-    content=<div className={styles.clientsContent}>
+    content={<div className={styles.clientsContent}>
     <h2 className={styles.clientsTitle}>{title}</h2>
     <input className={styles.clientsContainer}>
 
     </input>
-     </div>
+     </div>}
     />
   )
 }

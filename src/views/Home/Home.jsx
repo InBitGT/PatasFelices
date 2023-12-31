@@ -2,13 +2,11 @@ import React, { useRef } from 'react';
 
 import Header from "../../components/Header/Header"
 import AboutUs from "./About/AboutUs"
-import dogImage from "../../assets/dog-image.jpg"
-import ContainerPath from "../../components/Container/ContainerPath"
 import ServicesCategories from "../../components/ServicesCategory/ServicesCategories"
 import Clients from "./Clients/Clients"
 import Contact from "./Contact/Contact"
 import Footer from "../../components/Footer/Footer"
-import ImageGallery from "../../components/Gallery/Gallery"
+
 
 import styles from "./Home.module.css"
 
@@ -34,14 +32,17 @@ const Home = () => {
         contentTitle="Ofrecer servicios de cuidados de 
         perros que sean seguros, 
         divertidos y educativos."
-        contentInfo={<>Tu perro es parte de la familia, y nosotros lo sabemos. <br /> 
+        contentInfo={
+        <>
+        Tu perro es parte de la familia, y nosotros lo sabemos. <br /> 
         Por eso, nos comprometemos a brindarle el mejor <br />
         cuidado posible, tanto a domicilio como en nuestra <br />
         guardería. Nuestro equipo de profesionales está formado <br />
         por personas apasionadas por los perros, que saben <br />
         cómo tratarlos con amor y respeto. Ofrecemos un servicio <br />
         personalizado, adaptado a las necesidades de cada perro.
-        </>}
+        </>
+        }
         buttonText="Read More"
         
       />
