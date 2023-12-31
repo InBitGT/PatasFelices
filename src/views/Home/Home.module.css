@@ -1,0 +1,27 @@
+.servicesCategoriesContainer {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    margin-bottom: 10rem;
+}
+
+.servicesCategories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+
+.categoriesTitle {
+    color: #56BFAC;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.125rem; /* 62.5% */
+    letter-spacing: 0.25rem;
+    margin-top: 4rem;
+}

@@ -1,0 +1,24 @@
+
+.galleryContainer {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #F2A25C;; 
+    clip-path: url("#myClip2"); 
+    max-width: 50%;
+    position: relative;
+  }
+
+  .customArrow {
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: -3rem;
+  }
+
+  .customArrow:hover {
+    opacity: 0.6 ;
+    border-bottom: white 2px solid;
+
+  }

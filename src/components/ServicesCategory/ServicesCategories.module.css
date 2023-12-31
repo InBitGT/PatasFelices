@@ -1,0 +1,32 @@
+.serviceTitle {
+    color: #F2A25C;
+    font-family: Source Serif Pro;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.serviceInfo {
+    color: #1E1E1E;
+text-align: center;
+font-family: Source Serif Pro;
+font-size: 2.3rem;
+font-style: normal;
+font-weight: 300;
+line-height: 2.7rem;
+letter-spacing: 0.0125rem;
+margin-top: 0;
+}
+
+.serviceButton {
+    display: flex;
+width: 13rem;
+height: 3rem;
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+border-radius: 1.1rem;
+border: 0.2rem solid #8C4F2B;
+}

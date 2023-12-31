@@ -1,0 +1,13 @@
+
+.aboutUsContainer {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #F2A25C;; /* O el color de tu elección */
+    clip-path: url("#myClip"); /* Referencia a un SVG insertado en el HTML */
+  
+
+
+  }
+  

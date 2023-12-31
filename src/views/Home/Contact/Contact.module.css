@@ -1,0 +1,12 @@
+.contactTitle {
+    color: #F2A25C;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.125rem; /* 62.5% */
+    letter-spacing: 0.25rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}

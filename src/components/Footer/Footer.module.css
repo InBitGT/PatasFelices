@@ -1,0 +1,13 @@
+.footerSocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 4rem;
+  margin-top: 2.5rem;
+}
+
+.footerLogo {
+margin-left: 8rem;
+margin-top: 2.5rem;
+}

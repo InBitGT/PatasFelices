@@ -1,0 +1,89 @@
+.aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0rem;
+    margin: 0 0 0 15rem;
+}
+
+.aboutUsTitle {
+    font-family: Source Serif Pro;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 8rem;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+ 
+
+ .aboutUsText {
+    margin: 0;
+
+     /* Ajusta esto según tu diseño */
+  }
+  
+  .aboutUsText h3 {
+    font-size: 3.5rem;
+    font-style: bold;
+    margin: 0 0 2rem 0;
+    line-height: 4.3rem;
+
+  }
+  
+  .aboutUsText p {
+    margin: 0 0 1.5rem 0;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+
+
+  }
+  
+  .aboutUsText button {
+    display: flex;
+    width: 18rem;
+    height: 4.5rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+
+    border-radius: 3.125rem;
+    border: 2px solid #AD7757;
+    background: #F2D4C2;
+    color: #8C4F2B;
+    font-family: Prata;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.125rem; /* 312.5% */
+  }
+  
+  .aboutUsImage {
+
+
+    width: 106rem;
+    height: 115rem;
+    margin-right: -35rem;
+    margin-bottom: -55rem;
+    padding-top: 0rem;
+    
+
+
+    /* Ajusta esto según tu diseño */
+  
+  }
+  .aboutUsImage img {
+
+  object-fit: cover;
+  width: 100%;
+  
+;
+   /* display: block; Evita espacios adicionales debajo de la imagen */
+    /* clip-path: url("#myClip");
+    
+    overflow: hidden; */
+  }
+  
