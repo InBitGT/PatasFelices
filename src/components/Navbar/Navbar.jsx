@@ -4,11 +4,11 @@ import LinkButton from '../Button/LinkButton'
 
 import styles from './Navbar.module.css'
 
-const Navbar = () => {
+const Navbar = ({ scrollToAboutUs }) => {
   return (
     <div className={styles.navbar}>
     <Link className={styles.link} to="/">Home</Link>
-    <Link className={styles.link} to="/about">About</Link>
+    <a className={styles.link} onClick={scrollToAboutUs}>About</a>
     <Link to="/">
     <img src={logo} alt="Logo Patas Felices" className={styles.logo} width={'200rem'} height={'140rem'}/>
     </Link>

@@ -17,6 +17,7 @@
     transition: color 0.25s ease;
     margin-left: 2rem;
     margin-right: 2rem;
+    cursor: pointer;
 
     
 }
