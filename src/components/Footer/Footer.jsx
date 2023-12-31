@@ -2,7 +2,7 @@ import ContainerPath from "../Container/ContainerPath"
 
 import styles from "./Footer.module.css"
 
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/Logo.png"
 import { Link } from "react-router-dom"
 
 const AddContentStyle = {
