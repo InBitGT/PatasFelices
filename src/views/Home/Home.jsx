@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+
 import Header from "../../components/Header/Header"
 import AboutUs from "./About/AboutUs"
 import dogImage from "../../assets/dog-image.jpg"
@@ -14,9 +16,19 @@ import HomeCareImage from "../../assets/HomeCare.png"
 import NurseryImage from "../../assets/Nursery.png"
 
 const Home = () => {
+  // Crea la referencia
+  const aboutUsRef = useRef(null);
+
+  // Función para desplazarse a AboutUs
+  const scrollToAboutUs = () => {
+    aboutUsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+
   return (
     <>
-    <Header/>
+    <Header scrollToAboutUs={scrollToAboutUs} />
+    <div ref={aboutUsRef}>
     <AboutUs
         title="About Us"
         contentTitle="Ofrecer servicios de cuidados de 
@@ -33,6 +45,7 @@ const Home = () => {
         buttonText="Read More"
         
       />
+      </div>
       <div className={styles.servicesContainer}>
         <h2 className={styles.categoriesTitle}>Services</h2>
       <div className={styles.servicesCategoriesContainer}>

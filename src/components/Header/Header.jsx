@@ -1,10 +1,11 @@
+
 import Navbar from "../Navbar/Navbar"
 import ImagenHeader from "../../assets/Imagen Inicio.png"
 import LinkButton from '../Button/LinkButton'   
 
 import styles from './Header.module.css'
 
-const Header = () => {
+const Header = ({ scrollToAboutUs }) => {
     const CustomButtonStyle = {
         backgroundColor: '#F2A25C',
 
@@ -12,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-    <Navbar/>
+    <Navbar scrollToAboutUs={scrollToAboutUs} />
     <div className={styles.container}>
     <div>
     <h1 className={styles.containerInfo}>Tu <span className={styles.containerInfoSpan}>perro feliz</span>, tu tranquilidad.</h1>
