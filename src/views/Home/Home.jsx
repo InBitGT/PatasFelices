@@ -6,6 +6,7 @@ import ServicesCategories from "../../components/ServicesCategory/ServicesCatego
 import Clients from "./Clients/Clients"
 import Contact from "./Contact/Contact"
 import Footer from "../../components/Footer/Footer"
+import { Link } from "react-router-dom"
 
 
 import styles from "./Home.module.css"
@@ -61,8 +62,10 @@ const Home = () => {
             profesionales experimentados <br/>
             que aman a los perros.
             </>}
+            service="/home-care"
+            
             buttonText="View Shop"
-          />
+         />
           </div >
           <div className={styles.servicesCategories}>
           <ServicesCategories
@@ -75,6 +78,7 @@ const Home = () => {
             de los perros.
             </>}
             buttonText="View Shop"
+            service="/nurcery"
             />
           </div>
         </div>

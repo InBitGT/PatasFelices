@@ -10,6 +10,7 @@ const AddContentStyle = {
   backgroundColor: '#F2D4C2',
   display: 'flex',
   justifyContent: 'space-between',
+  marginTop: '20px'
   };
 
 const Footer = () => {

@@ -1,0 +1,33 @@
+.headerContainer {
+    position: relative;
+    width: 100%; /* Ajusta según sea necesario */
+    height: 66rem; /* Ajusta según sea necesario */
+    overflow: hidden;
+    margin-bottom: 23rem;
+  }
+  
+  .containerTitle {
+    font-family: Source Serif Pro;
+    font-size: 9rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 8rem;
+    margin: auto;
+    position: absolute;
+    bottom: 82%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  
+  .containerTitleSpan {
+    color: #56BFAC;
+  }
+  
+  .imgHeader {
+    width: 100%;
+    height: 100rem;
+    object-fit: cover;
+    background-size: cover;
+    background-position: 0 75rem;
+  }
+  
